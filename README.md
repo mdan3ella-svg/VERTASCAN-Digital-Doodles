@@ -1,4 +1,4 @@
-# VERTASCAN NEXFORM
+# VERTASCAN Digital Doodles
 ## Design Intelligence Suite | Software Technical Overview
 
 An integrated four-application architectural design platform for drafting, spatial planning, conceptual BIM and interactive visualization. This technical overview documents the delivered evaluation architecture, product roles, validation baseline and engineering requirements for a professional release.
@@ -9,11 +9,11 @@ An integrated four-application architectural design platform for drafting, spati
 
 ## 01 — Executive overview
 
-NEXFORM is Vertascan’s browser-based design intelligence suite, assembling four complementary architectural software environments under one product identity. It is conceived as a continuous practice-oriented workflow: precision drafting, spatial feasibility, conceptual BIM development and design visualization. The consolidated edition provides a common software launch point and separate product documentation while retaining each application as an independently accessible HTML application. It is an evaluation platform, not a claim of fully integrated commercial BIM interoperability.
+Digital Doodles is Vertascan’s browser-based design intelligence suite, assembling four complementary architectural software environments under one product identity. It is conceived as a continuous practice-oriented workflow: precision drafting, spatial feasibility, conceptual BIM development and design visualization. The consolidated edition provides a common software launch point and separate product documentation while retaining each application as an independently accessible HTML application. It is an evaluation platform, not a claim of fully integrated commercial BIM interoperability.
 
 ## 02 — Platform architecture
 
-The distribution uses a static web architecture: a responsive NEXFORM landing portal, application-specific information pages, and four dedicated application routes. Each tool preserves its own interface, state, commands and file workflows instead of sharing a runtime. This isolates application failures and allows iterative development and independent releases. Relative navigation paths support deployment beneath a GitHub Pages repository URL. Because a centralized project database, shared parametric schema, synchronized cross-app state and authenticated cloud service are not present in the current bundle, transitions between tools depend on the export/import capabilities of the particular applications, and must be verified format by format.
+The distribution uses a static web architecture: a responsive Digital Doodles landing portal, application-specific information pages, and four dedicated application routes. Each tool preserves its own interface, state, commands and file workflows instead of sharing a runtime. This isolates application failures and allows iterative development and independent releases. Relative navigation paths support deployment beneath a GitHub Pages repository URL. Because a centralized project database, shared parametric schema, synchronized cross-app state and authenticated cloud service are not present in the current bundle, transitions between tools depend on the export/import capabilities of the particular applications, and must be verified format by format.
 
 ## 03 — ScribeWorks | Precision drafting
 
@@ -41,11 +41,11 @@ The tools combine conventional browser interfaces with 2D drawing and WebGL-base
 
 ## 09 — Quality assurance and verification model
 
-NEXFORM adopts a layered verification strategy: (1) static source parsing and dependency checks; (2) functional interaction tests for every visible command and toggle; (3) model/data integrity checks including undo, redo, autosave, recovery and corrupt inputs; (4) import/export fixtures and file round-trips; (5) numerical accuracy checks for units, dimensions and AEC calculations; (6) rendering and input-device stress tests; and (7) accessibility, security and cross-browser testing. Every finding should record build ID, operating environment, reproducible steps, expected versus actual output, severity, ownership and retest evidence. This describes the release-quality framework; it does not assert the full matrix was executed.
+Digital Doodles adopts a layered verification strategy: (1) static source parsing and dependency checks; (2) functional interaction tests for every visible command and toggle; (3) model/data integrity checks including undo, redo, autosave, recovery and corrupt inputs; (4) import/export fixtures and file round-trips; (5) numerical accuracy checks for units, dimensions and AEC calculations; (6) rendering and input-device stress tests; and (7) accessibility, security and cross-browser testing. Every finding should record build ID, operating environment, reproducible steps, expected versus actual output, severity, ownership and retest evidence. This describes the release-quality framework; it does not assert the full matrix was executed.
 
 ## 10 — Observed evaluation baseline | 22 October 2026
 
-Source-level checks reported clean embedded executable JavaScript parsing for ScribeWorks, SEQUENCE and SketchBIM. Surreal Interactive contained a malformed script section in the supplied source; the NEXFORM packaged version repaired the client HTML export section and separated an affected specialty block, after which static syntax checking passed. Browser-level automation was blocked in the previous evaluation environment. Accordingly, actual application runtime, user interactions, file persistence, interoperability and cross-device compatibility were not established. The suite is suitable for controlled evaluation, with defects to be recorded against each application and build.
+Source-level checks reported clean embedded executable JavaScript parsing for ScribeWorks, SEQUENCE and SketchBIM. Surreal Interactive contained a malformed script section in the supplied source; the Digital Doodles packaged version repaired the client HTML export section and separated an affected specialty block, after which static syntax checking passed. Browser-level automation was blocked in the previous evaluation environment. Accordingly, actual application runtime, user interactions, file persistence, interoperability and cross-device compatibility were not established. The suite is suitable for controlled evaluation, with defects to be recorded against each application and build.
 
 ## 11 — Security, privacy and licensing
 
@@ -57,7 +57,7 @@ A production candidate should pass repeatable browser test runs on target Chrome
 
 ## 13 — Product direction
 
-The NEXFORM roadmap is a connected design lifecycle: author precise linework in ScribeWorks; organize program and feasibility in SEQUENCE; develop building information and geometry in SketchBIM; and communicate design intent through Surreal Interactive. The immediate priority is stabilization and clear per-app quality gates. The subsequent priority is a shared, versioned interchange contract—rather than collapsing four specialized engines into one fragile interface. Commercial maturity depends on measured reliability, traceable calculations and honest feature-level validation.
+The Digital Doodles roadmap is a connected design lifecycle: author precise linework in ScribeWorks; organize program and feasibility in SEQUENCE; develop building information and geometry in SketchBIM; and communicate design intent through Surreal Interactive. The immediate priority is stabilization and clear per-app quality gates. The subsequent priority is a shared, versioned interchange contract—rather than collapsing four specialized engines into one fragile interface. Commercial maturity depends on measured reliability, traceable calculations and honest feature-level validation.
 
 ## Deployment reference
 
