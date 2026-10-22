@@ -1,0 +1,26 @@
+{
+  "suite": "Vertascan NEXFORM",
+  "release": "2026.10-evaluation",
+  "apps": {
+    "scribeworks": {
+      "title": "ScribeWorks",
+      "version": "2026-10 evaluation build",
+      "status": "Pre-commercial QA"
+    },
+    "sequence": {
+      "title": "SEQUENCE",
+      "version": "2026-10 evaluation build",
+      "status": "Pre-commercial QA"
+    },
+    "sketchbim": {
+      "title": "SketchBIM",
+      "version": "2026-10 evaluation build",
+      "status": "Pre-commercial QA"
+    },
+    "surreal": {
+      "title": "Surreal Interactive",
+      "version": "2026-10 evaluation build",
+      "status": "Pre-commercial QA"
+    }
+  }
+}
